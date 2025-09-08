@@ -59,7 +59,7 @@ def download_image(url, save_dir, downloaded_hashes):
         print(f"✗ An error occurred: {e}")
 
 def main():
-    print("🌍 Welcome to the Ubuntu Image Fetcher")
+    print("Welcome to the Ubuntu Image Fetcher")
     print("A mindful tool for collecting images from the web\n")
     
     # Ask user for multiple URLs
@@ -80,8 +80,8 @@ def main():
     for url in urls:
         download_image(url, save_dir, downloaded_hashes)
     
-    print("\n✅ Process completed.")
-    print("🤝 Connection strengthened. Community enriched.")
+    print("\nProcess completed.")
+    print("Connection strengthened. Community enriched.")
 
 if __name__ == "__main__":
     main()
